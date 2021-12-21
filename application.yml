@@ -8,11 +8,11 @@ service-url:
   default-zone: http://localhost:8761/eureka/
   
  microservice:
- payment-services:
+ payment-service:
   endpoints:
     endpoint:
      uri:http://PAYMENT-SERVICE/payment/processPayment
- order-services:
+ order-service:
   endpoints:
     endpoint:
      uri:http://ORDER-SERVICE/orders/bookOrder

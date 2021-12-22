@@ -11,7 +11,8 @@ service-url:
   payment-service:
    endpoints:
     endpoint:
-     uri:http://PAYMENT-SERVICE/payments/processPayment
+     uri:
+      - http://PAYMENT-SERVICE/payments/processPayment
   order-service:
    endpoints:
     endpoint:

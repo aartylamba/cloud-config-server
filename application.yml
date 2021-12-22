@@ -16,3 +16,5 @@ service-url:
   endpoints:
    endpoint:
     uri:http://ORDER-SERVICE/orders/bookOrder
+test:
+ point:hello

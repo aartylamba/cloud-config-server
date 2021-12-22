@@ -10,9 +10,9 @@ service-url:
  microservice:
  payment-service:
   endpoints:
-    endpoint:
-     uri:http://PAYMENT-SERVICE/payments/processPayment
+   endpoint:
+    uri:http://PAYMENT-SERVICE/payments/processPayment
  order-service:
   endpoints:
-    endpoint:
-     uri:http://ORDER-SERVICE/orders/bookOrder
+   endpoint:
+    uri:http://ORDER-SERVICE/orders/bookOrder
